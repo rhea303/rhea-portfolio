@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rhea's Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images\favicon.png" />
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" class="img-fluid" alt="logo" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <!-- <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li> -->
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#contact">Hire Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>WELCOME TO MY WORLD</h6>
+            <h1>
+              I'm Rhea Tiwari<br /><span>Content-Writer.</span><br />
+              
+            </h1>
+            <div class="mt-4">
+              <a class="main-btn" href="https://drive.google.com/file/d/1nt9TbXvZPT1r3IVVJy6IlNLLLn-8QeTl/view?usp=sharing" target="_blank">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img
+              src="images\IMG-20220716-WA0004.jpg"
+              class="img-fluid rounded-3"
+              alt="About Us"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle">My About Details</span>
+              <h2>About Me</h2>
+              <p>
+                Hi! I'm Rhea Tiwari, a content writer, editor and proofreader. I
+                help business-owners fill the gap between their products and
+                online presence across a variety of niches.
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="true"
+                  >
+                    Main Skills
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Award-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Award"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Award"
+                    aria-selected="false"
+                  >
+                    Lang. proficiency
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-experiance-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-experiance"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-experiance"
+                    aria-selected="false"
+                  >
+                    Experience
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-skill-tab"
+                >
+                  <div class="single-progress">
+                    <h6>Content-Writing</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+                  <div class="single-progress">
+                    <h6>Proofreading</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 85%"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+                  <div class="single-progress">
+                    <h6>Editing</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">90%</span>
+                  </div>
+                  <div class="single-progress">
+                    <h6>Copywriting</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="0"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">90%</span>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-Award"
+                  role="tabpanel"
+                  aria-labelledby="pills-Award-tab"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="javascript:void(0)"
+                        >English proficiency
+                        <span>- Verbal and written</span></a
+                      >
+                      Native speaker
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                      
+                        >Hindi proficiency <span>- Verbal and written</span></a
+                      >
+                      Native speaker
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >French proficiency <span>- Verbal and written</span></a
+                      >
+                      Intermediate
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >Nepali proficiency <span>- Verbal and written</span></a
+                      >
+                      Professional working capacity
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >Bengali proficiency
+                        <span>- Verbal and written</span></a
+                      >
+                      Professional working capacity
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-experiance"
+                  role="tabpanel"
+                  aria-labelledby="pills-experiance-tab"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="javascript:void(0)"
+                        >Content-Writer, Proofreader, Editor<span> - Digibulls</span></a
+                      >
+                      October 2020 - October 2021
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >Content-Writer<span> - Alternative Literature</span></a
+                      >
+                      January 2021 - March 2021
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Editor, Copywriter, Content-Writer<span> - [VEPL GREedge] </span></a>
+                      October 2021 - March 2022
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">Ghostwriter, Content-writer<span> - Freelance Work </span></a>
+                      2+ years of experience
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-education"
+                  role="tabpanel"
+                  aria-labelledby="pills-education-tab"
+                >
+                  <ul class="text-start ps-0">
+                    <li>
+                      <a href="javascript:void(0)"
+                        >Master's in English Language and Literature<span>
+                          - University of Calcutta</span
+                        ></a
+                      >
+                      2020-2022
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        > B.A. Honors in English(First Class Degree)<span>
+                          - Bethune College, Kolkata</span
+                        ></a
+                      >
+                      2017-2021
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >ICSE 2015<span>
+                          - Loreto Convent, Darjeeling</span
+                        ></a
+                      >
+                      2015
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)"
+                        >ISC 2017<span>
+                          - Loreto Convent, Darjeeling</span
+                        ></a
+                      >
+                      2017
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">What I can do for you</span>
+            <h2>My Awesome Services</h2>
+            <p>
+              <br
+                class="d-none d-md-block"
+              />
+              Writer, Editor, Proofreader.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-2.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Content-Writing</h3>
+                <p>I provide well researched write-ups across a variety of niches.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-3.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Editing</h3>
+                <p>Get editing and proofreading services with thorough revisions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-4.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>B2B Writing</h3>
+                <p>Grow your clientele and boost your business with quality b2b writing services.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-2.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Copywriting</h3>
+                <p>Generate high quality copies for emails, blogs, ads and more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-3.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Ghostwriting</h3>
+                <p>Bridge the gap between your ideas and their penned-down form.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card-body text-md-start text-center">
+                <img
+                  src="./images/service/service-4.svg"
+                  alt="service"
+                  class="img-fluid mb-4"
+                />
+                <h3>Seo - Writing</h3>
+                <p>I write SEO friendly blogs that help your website rank high.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section exit -->
+
+    <!-- Portfolio Sectrion -->
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My Complete Portfolio</span>
+            <h2>My Latest Projects</h2>
+            <p>
+              I have worked on a lot of projects recently,<br
+                class="d-none d-md-block"
+              />
+              some of them include the following:
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <a href="https://docs.google.com/document/d/1C55GcYpP9uc2NMY60E2K3Or4XGFt37H72YpyUpaQuxM/edit?usp=sharing" target="_blank">
+              <div class="card p-0">
+              <span
+                style="background-image: url('./images/portfolio/music.jpg')"
+              ></span>What is Music?
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <a href="https://drive.google.com/file/d/1D9ytGrtRKOZAylen0VsLAvzVqtUWveDf/view?usp=sharing" target="_blank">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('images/portfolio/cat.jpg');
+                "
+              ></span>Cat breed: British shorthair
+            </div></a>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 mb-4">
+            <a href="https://drive.google.com/file/d/1AvIQ_dZs53vTxZdZNbRsCJXG77lEFJDe/view?usp=sharing" target="_blank">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('images/portfolio/crime.jpg');
+                "
+              ></span>
+            </div>False accusations against sex crimes </a>
+          </div> -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <a href="https://drive.google.com/file/d/1AvIQ_dZs53vTxZdZNbRsCJXG77lEFJDe/view?usp=sharing" target="_blank">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/crime.jpg');
+                "
+              ></span>False accusations against sex crimes.
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <a href="https://drive.google.com/file/d/18Km4GMND71k-k_ryv0XxzoSqsBxZQZ4Q/view?usp=sharing" target="_blank">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/jewelery.jpg');
+                "
+              ></span>6 Tips to sell pre used jewellery.
+            </div></a>
+          </div>
+           <!-- <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Ecommerce-Jewellery-Website.png');
+                "
+              ></span>
+            </div> -->
+          <!--</div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Hashtag-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Christmas-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div> -->
+          <!-- <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/SEO-Landing-Page.png');
+                "
+              ></span>
+            </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section exit -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
+          >
+            <span class="subtitle">Let's Say Hi</span>
+            <h2>Contact Me.</h2>
+            <div class="row call_details mb-4">
+              <label class="col-sm-3">Call me directly:</label>
+              <div class="col-sm-9 mb-3 mb-lg-2">
+                <a href="javascript:void(0)">+91 7001230182</a>
+              </div>
+              <label class="col-sm-3">Contact Email:</label>
+              <div class="col-sm-9 mb-3 mb-lg-2">
+                <a href="mailto:tiwarirhea1@gmail.com">tiwarirhea1@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+            <img src="./images/wine.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="images/logo.png" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0"
+            >
+              <!-- <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i> </a>
+                        </li> -->
+              <li>
+                <a href="https://twitter.com/rhea_tiwari?s=20&t=8dJYm1Bggg-5MS5-Oog9xA" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rhea-tiwari-40b9a11b5"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div
+              class="copyright-text text-lg-start text-center mb-3 mb-lg-0"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
